@@ -1,7 +1,7 @@
 Package: RBestMatch
 Type: Package
 Title: Graded Matching for Large Observational Studies
-Version: 0.1.0
+Version: 0.1.1
 Author: Ruoqi Yu
 Maintainer: Ruoqi Yu <ruoqiyu@berkeley.edu>
 Description: R-best matching is a new graded matching strategy in which potential pairings are graded, 
@@ -15,6 +15,6 @@ Imports: stats, plyr, mvnfast, methods, DiPs
 Suggests: optmatch
 Depends: R (>= 3.5.0)
 NeedsCompilation: no
-Packaged: 2021-11-14 20:50:28 UTC; ruoqiyu
+Packaged: 2021-12-21 05:47:36 UTC; ruoqiyu
 Repository: CRAN
-Date/Publication: 2021-11-15 20:10:08 UTC
+Date/Publication: 2021-12-21 06:20:09 UTC

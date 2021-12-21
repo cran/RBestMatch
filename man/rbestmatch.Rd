@@ -125,12 +125,12 @@ Xfull<-cbind(age,female,race_black,race_other,edu,income1,income2,income3,
 XXf=cbind(Xfull,pr)
 pr_st4=as.integer(cut(pr,quantile(pr,c(0,.16,.5,.84,1)),include.lowest = TRUE))
 detach(rhc)
-data<-cbind(rhc,pr,pr_st4,z,female,race_black,race_other,income1,income2,income3,
+data<-cbind(rhc,cbind(pr,pr_st4,pr_st4,z,female,race_black,race_other,income1,income2,income3,
             ins_care,ins_pcare,ins_caid,ins_no,ins_carecaid,cat1_copd,cat1_mosfsep,
             cat1_mosfmal,cat1_chf,cat1_coma,cat1_cirr,cat1_lung,cat1_colon,
             cat2_mosfsep,cat2_coma,cat2_mosfmal,cat2_lung,cat2_cirr,cat2_colon,
             adld3p_na,adld3p_impute,ca_yes,ca_meta,wt0,urin1_na,urin1_impute,NumComorbid,
-            Resp,Card,Neuro,Gastr,Renal,Meta,Hema,Seps,Trauma,Ortho,Dnr1)
+            Resp,Card,Neuro,Gastr,Renal,Meta,Hema,Seps,Trauma,Ortho,Dnr1))
 rm(pr,pr_st4,z,female,race_black,race_other,income1,income2,income3,
    ins_care,ins_pcare,ins_caid,ins_no,ins_carecaid,cat1_copd,cat1_mosfsep,
    cat1_mosfmal,cat1_chf,cat1_coma,cat1_cirr,cat1_lung,cat1_colon,

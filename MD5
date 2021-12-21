@@ -1,4 +1,4 @@
-dd466cdb2f59727336749738f875dfdb *DESCRIPTION
+8ed1c940e88410acf120da6ef7307917 *DESCRIPTION
 57bfc472478c6d38a95374fdac8e36c6 *LICENSE
 48e9c0184f8181a41ac53c7764d52663 *NAMESPACE
 de25ba84635dfddbf59a443335c5a511 *R/balance.R
@@ -6,8 +6,8 @@ ecb8643d06220195e986191faf3e5c6c *R/mahad.R
 a801bb7fc3325453bdf9cf39e7e8fc95 *R/rbestdist.R
 e345eaece7151b593c7c7e9432173f14 *R/rbestmatch.R
 2344a0313c3540a88342e87d794f222f *data/rhc.rda
-1b289c0625a5cdd897950e201acdfc7c *man/balance.Rd
+ca998c770a821de2be4237450f40d155 *man/balance.Rd
 bdf3a9dd20c215806acc817fc63196e4 *man/mahad.Rd
 2ad897e16540843c96fbe5018d41fea6 *man/rbestdist.Rd
-9c178859338db8bfcdd0d8fd9bcfea2d *man/rbestmatch.Rd
+e06cd0e9845db367793156055baf1e79 *man/rbestmatch.Rd
 4e1dd74a5de3da178e1827b7a2dc69d0 *man/rhc.Rd
